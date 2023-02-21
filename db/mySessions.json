@@ -1,0 +1,30 @@
+[{
+  "_id": "AUILoQoAPjjY-qUBeH2OcFVAIOus1gpm",
+  "expires": {
+    "$date": {
+      "$numberLong": "1677523566674"
+    }
+  },
+  "session": {
+    "cookie": {
+      "originalMaxAge": 604800000,
+      "expires": {
+        "$date": {
+          "$numberLong": "1677523566674"
+        }
+      },
+      "secure": false,
+      "httpOnly": true,
+      "domain": null,
+      "path": "/",
+      "sameSite": null
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYzU2MWE1Mjk3NGU4ODMyNTM1NDc4YiIsImlhdCI6MTY3NjgyODAzOSwiZXhwIjoxNjc3NDMyODM5fQ.eM_SbRts5FVbdj_cutYDOAQ3SoEJxAo8KVXY27lDddQ",
+    "userId": {
+      "$oid": "63c561a52974e8832535478b"
+    },
+    "isAuth": true,
+    "name": "DocJParker",
+    "idUser": "63c85ecea9c4167f99f8469b"
+  }
+}]

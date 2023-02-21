@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "63c85ecea9c4167f99f8469b"
+  },
+  "name": "DocJParker",
+  "email": "j.parker@meddoctor.org",
+  "password": "$2b$10$S3MSmeIT.Qtovh578uATOe0iDNdr413cQLYlSjyGfdhEgEzpRweLG",
+  "dataClinicalAnalysisButton": true,
+  "xcAndFmLevel": true,
+  "heartRespRate": true,
+  "bunChart": true,
+  "bMIChart": false,
+  "searchForm": "PACAUG57M23Z536Q",
+  "dataTable": true,
+  "ffm": true,
+  "tbw": true
+}]

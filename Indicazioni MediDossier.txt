@@ -1,0 +1,29 @@
+DATABASE 
+
+(ci sarebbe un metodo più complesso per importare l'intero database, ma considerando che si tratta solo di 2 collezioni spiegherò il metodo più veloce) 
+
+1) Installare MongoDB 
+2) Creare una nuova connessione 
+3) Nella connessione creata , creare un Database  
+4) Creare due collezioni , una chiamata "mySession" ed un altra "users" 
+5) Entra nella collezione "mySession" , premi il tasto "ADD DATA" , poi "Import File", ed importi il file "mySession.json" presente nella cartella db 
+   Fai lo stesso con "users" 
+
+6) Apri MediDossier in VisualStudioCode (o altro) , accedi al file .env contenente le variabili di ambiente ( MediDossier --> server --> .env) 
+
+modifica la variabile MONGO_URI inserendo l'URI della connessione creata seguita da "/" ed il nome del tuo database 
+-------------------------------------------------------
+
+SERVER 
+
+1) Apri VisualStudioCode (o altro)
+2) Crea un terminale ed accedi alla cartella server 
+3) Digita il comando "npm start server" 
+
+--------------------------------------------------------
+
+CLIENT 
+
+1) Apri VisualStudioCode (o altro)
+2) Crea un terminale ed accedi alla cartella client
+3) Digita il comando "npm start client" 
