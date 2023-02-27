@@ -1,0 +1,3 @@
+[submodule "client-Medi_Dossier"]
+	path = client-Medi_Dossier
+	url = https://github.com/niccolo99cacace/client-Medi_Dossier.git
